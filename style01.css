@@ -1,0 +1,179 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #fce4ec; /* Light pink background */
+    color: #4a4a4a;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    font-size: 16px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f8bbd0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #ff4081;
+    padding: 10px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e91e63;
+  }
+  
+  /* Service Cards */
+  .services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    font-size: 1.5em;
+    color: #ff4081;
+  }
+  
+  .service-card a {
+    color: #ff4081;
+    font-weight: bold;
+  }
+  
+  .service-card p {
+    font-size: 1.1em;
+    color: #555;
+  }
+ .service-image{
+    width: 50%; /* Adjust percentage or use fixed values like 300px */
+    height: auto; /* Maintains the aspect ratio */
+    display:block; /* Optional: Centers the image within its container */
+    margin: 0 auto; /* Optional: Adds centering for the image */
+ }
+  /* Booking Form */
+  .booking {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #ff4081;
+    color: white;
+  }
+  
+  .booking input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .booking button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking button:hover {
+    background-color: #ff80ab;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff4081;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .service-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
